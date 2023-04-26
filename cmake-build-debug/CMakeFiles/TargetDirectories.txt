@@ -1,0 +1,4 @@
+C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/main.dir
+C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/CCL_source_code.dir
+C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/rebuild_cache.dir

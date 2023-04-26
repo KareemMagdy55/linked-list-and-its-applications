@@ -1,0 +1,14 @@
+# ninja log v5
+5	630	7042425067343122	CMakeFiles/linked_list_and_its_applications.dir/main.cpp.obj	bdb537d1689c1684
+5	700	7042421768782058	CMakeFiles/CCL_source_code.dir/circularLinkedList/CCL_source_code.cpp.obj	76a926a6689a4acc
+19	1022	7042417868907376	CMakeFiles/CCL_source_code.dir/main.cpp.obj	fd9dee6b58e95c7e
+670	844	7042428123098359	main.exe	a8da65b98d41ef5b
+1	673	7042418982883138	CMakeFiles/main.cpp.dir/main.cpp.obj	35fac037a65fc381
+12	675	7042418982905424	CMakeFiles/main.cpp.dir/circularLinkedList/CCL_source_code.cpp.obj	792ee321746fc4c2
+631	816	7042425069132215	linked_list_and_its_applications.exe	3403f6d5af49c050
+6	669	7042428121406924	CMakeFiles/main.dir/main.cpp.obj	fb28c0ab77ee2433
+8	673	7042428878439129	CMakeFiles/main.dir/main.cpp.obj	fb28c0ab77ee2433
+674	860	7042428880249137	main.exe	dcde41f7b982b4a1
+6	681	7042429016373195	CMakeFiles/main.dir/main.cpp.obj	fb28c0ab77ee2433
+6	686	7042429079527846	CMakeFiles/main.dir/main.cpp.obj	fb28c0ab77ee2433
+687	848	7042429081122328	main.exe	dcde41f7b982b4a1
