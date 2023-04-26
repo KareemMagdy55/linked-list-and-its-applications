@@ -5,12 +5,15 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(circularLinkedList)
 include_directories(arrayBasedList)
+include_directories(queue)
 
 add_executable(main main.cpp)
 add_executable(CCL circularLinkedList/CCL_source_code.cpp)
 add_executable(ABL arrayBasedList/ABL_CPP.cpp)
+add_executable(queue queue/queue.cpp)
 
 target_link_libraries(CCL PUBLIC ${CMAKE_DL_LIBS})
 target_link_libraries(ABL PUBLIC ${CMAKE_DL_LIBS})
+target_link_libraries(queue PUBLIC ${CMAKE_DL_LIBS})
 
 #set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -mwindows")

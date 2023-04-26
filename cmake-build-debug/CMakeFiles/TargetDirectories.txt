@@ -1,5 +1,6 @@
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/main.dir
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/CCL.dir
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/ABL.dir
+C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/queue.dir
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/rebuild_cache.dir

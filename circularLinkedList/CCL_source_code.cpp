@@ -1,3 +1,4 @@
+#pragma once
 #include "CCL_header_file.h"
 
 
