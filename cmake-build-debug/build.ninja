@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/main.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList"
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir
 
@@ -75,38 +75,72 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
   TARGET_PDB = main.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target CCL_source_code
+# Object build statements for EXECUTABLE target CCL
 
 
 #############################################
-# Order-only phony target for CCL_source_code
+# Order-only phony target for CCL
 
-build cmake_object_order_depends_target_CCL_source_code: phony || CMakeFiles/CCL_source_code.dir
+build cmake_object_order_depends_target_CCL: phony || CMakeFiles/CCL.dir
 
-build CMakeFiles/CCL_source_code.dir/circularLinkedList/CCL_source_code.cpp.obj: CXX_COMPILER__CCL_source_code_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList/CCL_source_code.cpp || cmake_object_order_depends_target_CCL_source_code
-  DEP_FILE = CMakeFiles\CCL_source_code.dir\circularLinkedList\CCL_source_code.cpp.obj.d
+build CMakeFiles/CCL.dir/circularLinkedList/CCL_source_code.cpp.obj: CXX_COMPILER__CCL_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList/CCL_source_code.cpp || cmake_object_order_depends_target_CCL
+  DEP_FILE = CMakeFiles\CCL.dir\circularLinkedList\CCL_source_code.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList"
-  OBJECT_DIR = CMakeFiles\CCL_source_code.dir
-  OBJECT_FILE_DIR = CMakeFiles\CCL_source_code.dir\circularLinkedList
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList"
+  OBJECT_DIR = CMakeFiles\CCL.dir
+  OBJECT_FILE_DIR = CMakeFiles\CCL.dir\circularLinkedList
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CCL_source_code
+# Link build statements for EXECUTABLE target CCL
 
 
 #############################################
-# Link the executable CCL_source_code.exe
+# Link the executable CCL.exe
 
-build CCL_source_code.exe: CXX_EXECUTABLE_LINKER__CCL_source_code_Debug CMakeFiles/CCL_source_code.dir/circularLinkedList/CCL_source_code.cpp.obj
+build CCL.exe: CXX_EXECUTABLE_LINKER__CCL_Debug CMakeFiles/CCL.dir/circularLinkedList/CCL_source_code.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\CCL_source_code.dir
+  OBJECT_DIR = CMakeFiles\CCL.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = CCL_source_code.exe
-  TARGET_IMPLIB = libCCL_source_code.dll.a
-  TARGET_PDB = CCL_source_code.exe.dbg
+  TARGET_FILE = CCL.exe
+  TARGET_IMPLIB = libCCL.dll.a
+  TARGET_PDB = CCL.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ABL
+
+
+#############################################
+# Order-only phony target for ABL
+
+build cmake_object_order_depends_target_ABL: phony || CMakeFiles/ABL.dir
+
+build CMakeFiles/ABL.dir/arrayBasedList/ABL_CPP.cpp.obj: CXX_COMPILER__ABL_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList/ABL_CPP.cpp || cmake_object_order_depends_target_ABL
+  DEP_FILE = CMakeFiles\ABL.dir\arrayBasedList\ABL_CPP.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList"
+  OBJECT_DIR = CMakeFiles\ABL.dir
+  OBJECT_FILE_DIR = CMakeFiles\ABL.dir\arrayBasedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ABL
+
+
+#############################################
+# Link the executable ABL.exe
+
+build ABL.exe: CXX_EXECUTABLE_LINKER__ABL_Debug CMakeFiles/ABL.dir/arrayBasedList/ABL_CPP.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ABL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ABL.exe
+  TARGET_IMPLIB = libABL.dll.a
+  TARGET_PDB = ABL.exe.dbg
 
 
 #############################################
@@ -134,7 +168,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build CCL_source_code: phony CCL_source_code.exe
+build ABL: phony ABL.exe
+
+build CCL: phony CCL.exe
 
 build main: phony main.exe
 
@@ -146,7 +182,7 @@ build main: phony main.exe
 #############################################
 # Folder: C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug
 
-build all: phony main.exe CCL_source_code.exe
+build all: phony main.exe CCL.exe ABL.exe
 
 # =============================================================================
 # Built-in targets
