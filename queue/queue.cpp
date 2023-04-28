@@ -12,8 +12,9 @@ T queue<T>::first() {
 
 template<typename T>
 T queue<T>::dequeue() {
+    T ele = lst.retrieveAt(0);
     lst.removeAtHead();
-    return lst.retrieveAt(0);
+    return ele;
 }
 
 template<typename T>

@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
 build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/main.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
   OBJECT_DIR = CMakeFiles\main.dir
   OBJECT_FILE_DIR = CMakeFiles\main.dir
 
@@ -86,7 +86,7 @@ build cmake_object_order_depends_target_CCL: phony || CMakeFiles/CCL.dir
 build CMakeFiles/CCL.dir/circularLinkedList/CCL_source_code.cpp.obj: CXX_COMPILER__CCL_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList/CCL_source_code.cpp || cmake_object_order_depends_target_CCL
   DEP_FILE = CMakeFiles\CCL.dir\circularLinkedList\CCL_source_code.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
   OBJECT_DIR = CMakeFiles\CCL.dir
   OBJECT_FILE_DIR = CMakeFiles\CCL.dir\circularLinkedList
 
@@ -120,7 +120,7 @@ build cmake_object_order_depends_target_ABL: phony || CMakeFiles/ABL.dir
 build CMakeFiles/ABL.dir/arrayBasedList/ABL_CPP.cpp.obj: CXX_COMPILER__ABL_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList/ABL_CPP.cpp || cmake_object_order_depends_target_ABL
   DEP_FILE = CMakeFiles\ABL.dir\arrayBasedList\ABL_CPP.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
   OBJECT_DIR = CMakeFiles\ABL.dir
   OBJECT_FILE_DIR = CMakeFiles\ABL.dir\arrayBasedList
 
@@ -154,7 +154,7 @@ build cmake_object_order_depends_target_queue: phony || CMakeFiles/queue.dir
 build CMakeFiles/queue.dir/queue/queue.cpp.obj: CXX_COMPILER__queue_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/queue/queue.cpp || cmake_object_order_depends_target_queue
   DEP_FILE = CMakeFiles\queue.dir\queue\queue.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
   OBJECT_DIR = CMakeFiles\queue.dir
   OBJECT_FILE_DIR = CMakeFiles\queue.dir\queue
 
@@ -175,6 +175,40 @@ build queue.exe: CXX_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/queue/q
   TARGET_FILE = queue.exe
   TARGET_IMPLIB = libqueue.dll.a
   TARGET_PDB = queue.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sortingProblem
+
+
+#############################################
+# Order-only phony target for sortingProblem
+
+build cmake_object_order_depends_target_sortingProblem: phony || CMakeFiles/sortingProblem.dir
+
+build CMakeFiles/sortingProblem.dir/queue-problems/sorting-a-queue.cpp.obj: CXX_COMPILER__sortingProblem_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/queue-problems/sorting-a-queue.cpp || cmake_object_order_depends_target_sortingProblem
+  DEP_FILE = CMakeFiles\sortingProblem.dir\queue-problems\sorting-a-queue.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  OBJECT_DIR = CMakeFiles\sortingProblem.dir
+  OBJECT_FILE_DIR = CMakeFiles\sortingProblem.dir\queue-problems
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sortingProblem
+
+
+#############################################
+# Link the executable sortingProblem.exe
+
+build sortingProblem.exe: CXX_EXECUTABLE_LINKER__sortingProblem_Debug CMakeFiles/sortingProblem.dir/queue-problems/sorting-a-queue.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sortingProblem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sortingProblem.exe
+  TARGET_IMPLIB = libsortingProblem.dll.a
+  TARGET_PDB = sortingProblem.exe.dbg
 
 
 #############################################
@@ -210,6 +244,8 @@ build main: phony main.exe
 
 build queue: phony queue.exe
 
+build sortingProblem: phony sortingProblem.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -218,7 +254,7 @@ build queue: phony queue.exe
 #############################################
 # Folder: C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug
 
-build all: phony main.exe CCL.exe ABL.exe queue.exe
+build all: phony main.exe CCL.exe ABL.exe queue.exe sortingProblem.exe
 
 # =============================================================================
 # Built-in targets
