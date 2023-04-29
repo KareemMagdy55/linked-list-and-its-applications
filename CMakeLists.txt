@@ -16,7 +16,8 @@ include_directories(doubleLinkedList)
 
 
 
-add_executable(main main.cpp)
+add_executable(Linked_lists_test Linked_lists_test.cpp)
+add_executable(Linked_list_Applications_test Linked_list_Applications_test.cpp)
 add_executable(CCL circularLinkedList/CCL_source_code.cpp)
 add_executable(ABL arrayBasedList/ABL_CPP.cpp)
 add_executable(queue queue/queue.cpp)

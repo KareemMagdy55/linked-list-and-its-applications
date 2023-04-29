@@ -1,3 +1,5 @@
+#pragma once
+
 #include "ST_header_file.h"
 #include "iostream"
 using namespace std;

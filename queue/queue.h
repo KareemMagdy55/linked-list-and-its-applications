@@ -5,7 +5,6 @@
 #ifndef LINKED_LIST_AND_ITS_APPLICATIONS_QUEUE_H
 #define LINKED_LIST_AND_ITS_APPLICATIONS_QUEUE_H
 
-#include "CCL_header_file.h"
 #include "CCL_source_code.cpp"
 
 using namespace std;

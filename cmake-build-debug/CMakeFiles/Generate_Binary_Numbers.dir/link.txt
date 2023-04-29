@@ -1,3 +1,0 @@
-"C:\Users\Ahmed\AppData\Local\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Generate_Binary_Numbers.dir/objects.a
-C:\Users\Ahmed\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\Generate_Binary_Numbers.dir/objects.a @CMakeFiles\Generate_Binary_Numbers.dir\objects1.rsp
-C:\Users\Ahmed\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Generate_Binary_Numbers.dir/objects.a -Wl,--no-whole-archive -o Generate_Binary_Numbers.exe -Wl,--out-implib,libGenerate_Binary_Numbers.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Generate_Binary_Numbers.dir\linklibs.rsp

@@ -1,3 +1,4 @@
+#pragma once
 #include "SLL_header_file.h"
 
 using namespace std;

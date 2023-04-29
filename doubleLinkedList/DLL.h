@@ -1,8 +1,7 @@
-#ifndef LINKED_LIST_AND_ITS_APPLICATIONS_QUEUE_H
-#define LINKED_LIST_AND_ITS_APPLICATIONS_QUEUE_H
+#pragma once
 
-
-#include <bits/stdc++.h>
+#include "iostream"
+#include <cassert>
 using namespace std;
 
 template<class T>
@@ -44,4 +43,3 @@ class double_linked_list
   void clear();
 };
 
-#endif

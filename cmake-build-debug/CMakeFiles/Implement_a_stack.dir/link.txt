@@ -1,3 +1,0 @@
-"C:\Users\Ahmed\AppData\Local\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Implement_a_stack.dir/objects.a
-C:\Users\Ahmed\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\Implement_a_stack.dir/objects.a @CMakeFiles\Implement_a_stack.dir\objects1.rsp
-C:\Users\Ahmed\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Implement_a_stack.dir/objects.a -Wl,--no-whole-archive -o Implement_a_stack.exe -Wl,--out-implib,libImplement_a_stack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Implement_a_stack.dir\linklibs.rsp

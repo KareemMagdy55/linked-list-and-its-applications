@@ -1,3 +1,0 @@
-"C:\Users\Ahmed\AppData\Local\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SLL.dir/objects.a
-C:\Users\Ahmed\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\SLL.dir/objects.a @CMakeFiles\SLL.dir\objects1.rsp
-C:\Users\Ahmed\AppData\Local\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\SLL.dir/objects.a -Wl,--no-whole-archive -o SLL.exe -Wl,--out-implib,libSLL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SLL.dir\linklibs.rsp

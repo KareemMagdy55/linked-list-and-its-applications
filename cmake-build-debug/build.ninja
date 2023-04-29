@@ -41,38 +41,72 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main
+# Object build statements for EXECUTABLE target Linked_lists_test
 
 
 #############################################
-# Order-only phony target for main
+# Order-only phony target for Linked_lists_test
 
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+build cmake_object_order_depends_target_Linked_lists_test: phony || CMakeFiles/Linked_lists_test.dir
 
-build CMakeFiles/main.dir/main.cpp.obj: CXX_COMPILER__main_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\main.cpp.obj.d
+build CMakeFiles/Linked_lists_test.dir/Linked_lists_test.cpp.obj: CXX_COMPILER__Linked_lists_test_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/Linked_lists_test.cpp || cmake_object_order_depends_target_Linked_lists_test
+  DEP_FILE = CMakeFiles\Linked_lists_test.dir\Linked_lists_test.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\Linked_lists_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\Linked_lists_test.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main
+# Link build statements for EXECUTABLE target Linked_lists_test
 
 
 #############################################
-# Link the executable main.exe
+# Link the executable Linked_lists_test.exe
 
-build main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.obj
+build Linked_lists_test.exe: CXX_EXECUTABLE_LINKER__Linked_lists_test_Debug CMakeFiles/Linked_lists_test.dir/Linked_lists_test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\Linked_lists_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = libmain.dll.a
-  TARGET_PDB = main.exe.dbg
+  TARGET_FILE = Linked_lists_test.exe
+  TARGET_IMPLIB = libLinked_lists_test.dll.a
+  TARGET_PDB = Linked_lists_test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Linked_list_Applications_test
+
+
+#############################################
+# Order-only phony target for Linked_list_Applications_test
+
+build cmake_object_order_depends_target_Linked_list_Applications_test: phony || CMakeFiles/Linked_list_Applications_test.dir
+
+build CMakeFiles/Linked_list_Applications_test.dir/Linked_list_Applications_test.cpp.obj: CXX_COMPILER__Linked_list_Applications_test_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/Linked_list_Applications_test.cpp || cmake_object_order_depends_target_Linked_list_Applications_test
+  DEP_FILE = CMakeFiles\Linked_list_Applications_test.dir\Linked_list_Applications_test.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\Linked_list_Applications_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\Linked_list_Applications_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Linked_list_Applications_test
+
+
+#############################################
+# Link the executable Linked_list_Applications_test.exe
+
+build Linked_list_Applications_test.exe: CXX_EXECUTABLE_LINKER__Linked_list_Applications_test_Debug CMakeFiles/Linked_list_Applications_test.dir/Linked_list_Applications_test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Linked_list_Applications_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Linked_list_Applications_test.exe
+  TARGET_IMPLIB = libLinked_list_Applications_test.dll.a
+  TARGET_PDB = Linked_list_Applications_test.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CCL
@@ -86,7 +120,7 @@ build cmake_object_order_depends_target_CCL: phony || CMakeFiles/CCL.dir
 build CMakeFiles/CCL.dir/circularLinkedList/CCL_source_code.cpp.obj: CXX_COMPILER__CCL_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList/CCL_source_code.cpp || cmake_object_order_depends_target_CCL
   DEP_FILE = CMakeFiles\CCL.dir\circularLinkedList\CCL_source_code.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
   OBJECT_DIR = CMakeFiles\CCL.dir
   OBJECT_FILE_DIR = CMakeFiles\CCL.dir\circularLinkedList
 
@@ -120,7 +154,7 @@ build cmake_object_order_depends_target_ABL: phony || CMakeFiles/ABL.dir
 build CMakeFiles/ABL.dir/arrayBasedList/ABL_CPP.cpp.obj: CXX_COMPILER__ABL_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList/ABL_CPP.cpp || cmake_object_order_depends_target_ABL
   DEP_FILE = CMakeFiles\ABL.dir\arrayBasedList\ABL_CPP.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
   OBJECT_DIR = CMakeFiles\ABL.dir
   OBJECT_FILE_DIR = CMakeFiles\ABL.dir\arrayBasedList
 
@@ -154,7 +188,7 @@ build cmake_object_order_depends_target_queue: phony || CMakeFiles/queue.dir
 build CMakeFiles/queue.dir/queue/queue.cpp.obj: CXX_COMPILER__queue_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/queue/queue.cpp || cmake_object_order_depends_target_queue
   DEP_FILE = CMakeFiles\queue.dir\queue\queue.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
   OBJECT_DIR = CMakeFiles\queue.dir
   OBJECT_FILE_DIR = CMakeFiles\queue.dir\queue
 
@@ -188,7 +222,7 @@ build cmake_object_order_depends_target_sortingProblem: phony || CMakeFiles/sort
 build CMakeFiles/sortingProblem.dir/queue-problems/sorting-a-queue.cpp.obj: CXX_COMPILER__sortingProblem_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/queue-problems/sorting-a-queue.cpp || cmake_object_order_depends_target_sortingProblem
   DEP_FILE = CMakeFiles\sortingProblem.dir\queue-problems\sorting-a-queue.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
   OBJECT_DIR = CMakeFiles\sortingProblem.dir
   OBJECT_FILE_DIR = CMakeFiles\sortingProblem.dir\queue-problems
 
@@ -222,7 +256,7 @@ build cmake_object_order_depends_target_Implement_a_stack: phony || CMakeFiles/I
 build CMakeFiles/Implement_a_stack.dir/queue-problems/Implement_a_stack.cpp.obj: CXX_COMPILER__Implement_a_stack_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/queue-problems/Implement_a_stack.cpp || cmake_object_order_depends_target_Implement_a_stack
   DEP_FILE = CMakeFiles\Implement_a_stack.dir\queue-problems\Implement_a_stack.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
   OBJECT_DIR = CMakeFiles\Implement_a_stack.dir
   OBJECT_FILE_DIR = CMakeFiles\Implement_a_stack.dir\queue-problems
 
@@ -256,7 +290,7 @@ build cmake_object_order_depends_target_Generate_Binary_Numbers: phony || CMakeF
 build CMakeFiles/Generate_Binary_Numbers.dir/queue-problems/Generate_Binary_Numbers.cpp.obj: CXX_COMPILER__Generate_Binary_Numbers_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/queue-problems/Generate_Binary_Numbers.cpp || cmake_object_order_depends_target_Generate_Binary_Numbers
   DEP_FILE = CMakeFiles\Generate_Binary_Numbers.dir\queue-problems\Generate_Binary_Numbers.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
   OBJECT_DIR = CMakeFiles\Generate_Binary_Numbers.dir
   OBJECT_FILE_DIR = CMakeFiles\Generate_Binary_Numbers.dir\queue-problems
 
@@ -277,6 +311,244 @@ build Generate_Binary_Numbers.exe: CXX_EXECUTABLE_LINKER__Generate_Binary_Number
   TARGET_FILE = Generate_Binary_Numbers.exe
   TARGET_IMPLIB = libGenerate_Binary_Numbers.dll.a
   TARGET_PDB = Generate_Binary_Numbers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ST
+
+
+#############################################
+# Order-only phony target for ST
+
+build cmake_object_order_depends_target_ST: phony || CMakeFiles/ST.dir
+
+build CMakeFiles/ST.dir/Stack/ST_source_code.cpp.obj: CXX_COMPILER__ST_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/Stack/ST_source_code.cpp || cmake_object_order_depends_target_ST
+  DEP_FILE = CMakeFiles\ST.dir\Stack\ST_source_code.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\ST.dir
+  OBJECT_FILE_DIR = CMakeFiles\ST.dir\Stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ST
+
+
+#############################################
+# Link the executable ST.exe
+
+build ST.exe: CXX_EXECUTABLE_LINKER__ST_Debug CMakeFiles/ST.dir/Stack/ST_source_code.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ST.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ST.exe
+  TARGET_IMPLIB = libST.dll.a
+  TARGET_PDB = ST.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target infinxproblem
+
+
+#############################################
+# Order-only phony target for infinxproblem
+
+build cmake_object_order_depends_target_infinxproblem: phony || CMakeFiles/infinxproblem.dir
+
+build CMakeFiles/infinxproblem.dir/Stack-problems/infinx_to_postifix.cpp.obj: CXX_COMPILER__infinxproblem_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/Stack-problems/infinx_to_postifix.cpp || cmake_object_order_depends_target_infinxproblem
+  DEP_FILE = CMakeFiles\infinxproblem.dir\Stack-problems\infinx_to_postifix.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\infinxproblem.dir
+  OBJECT_FILE_DIR = CMakeFiles\infinxproblem.dir\Stack-problems
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target infinxproblem
+
+
+#############################################
+# Link the executable infinxproblem.exe
+
+build infinxproblem.exe: CXX_EXECUTABLE_LINKER__infinxproblem_Debug CMakeFiles/infinxproblem.dir/Stack-problems/infinx_to_postifix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\infinxproblem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = infinxproblem.exe
+  TARGET_IMPLIB = libinfinxproblem.dll.a
+  TARGET_PDB = infinxproblem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target parantethisproblem
+
+
+#############################################
+# Order-only phony target for parantethisproblem
+
+build cmake_object_order_depends_target_parantethisproblem: phony || CMakeFiles/parantethisproblem.dir
+
+build CMakeFiles/parantethisproblem.dir/Stack-problems/longest_val_par.cpp.obj: CXX_COMPILER__parantethisproblem_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/Stack-problems/longest_val_par.cpp || cmake_object_order_depends_target_parantethisproblem
+  DEP_FILE = CMakeFiles\parantethisproblem.dir\Stack-problems\longest_val_par.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\parantethisproblem.dir
+  OBJECT_FILE_DIR = CMakeFiles\parantethisproblem.dir\Stack-problems
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target parantethisproblem
+
+
+#############################################
+# Link the executable parantethisproblem.exe
+
+build parantethisproblem.exe: CXX_EXECUTABLE_LINKER__parantethisproblem_Debug CMakeFiles/parantethisproblem.dir/Stack-problems/longest_val_par.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\parantethisproblem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = parantethisproblem.exe
+  TARGET_IMPLIB = libparantethisproblem.dll.a
+  TARGET_PDB = parantethisproblem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SLL
+
+
+#############################################
+# Order-only phony target for SLL
+
+build cmake_object_order_depends_target_SLL: phony || CMakeFiles/SLL.dir
+
+build CMakeFiles/SLL.dir/singleLinkedList/SLL_source_code_file.cpp.obj: CXX_COMPILER__SLL_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList/SLL_source_code_file.cpp || cmake_object_order_depends_target_SLL
+  DEP_FILE = CMakeFiles\SLL.dir\singleLinkedList\SLL_source_code_file.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\SLL.dir
+  OBJECT_FILE_DIR = CMakeFiles\SLL.dir\singleLinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SLL
+
+
+#############################################
+# Link the executable SLL.exe
+
+build SLL.exe: CXX_EXECUTABLE_LINKER__SLL_Debug CMakeFiles/SLL.dir/singleLinkedList/SLL_source_code_file.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SLL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SLL.exe
+  TARGET_IMPLIB = libSLL.dll.a
+  TARGET_PDB = SLL.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DLL
+
+
+#############################################
+# Order-only phony target for DLL
+
+build cmake_object_order_depends_target_DLL: phony || CMakeFiles/DLL.dir
+
+build CMakeFiles/DLL.dir/doubleLinkedList/DLL.cpp.obj: CXX_COMPILER__DLL_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList/DLL.cpp || cmake_object_order_depends_target_DLL
+  DEP_FILE = CMakeFiles\DLL.dir\doubleLinkedList\DLL.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\DLL.dir
+  OBJECT_FILE_DIR = CMakeFiles\DLL.dir\doubleLinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DLL
+
+
+#############################################
+# Link the executable DLL.exe
+
+build DLL.exe: CXX_EXECUTABLE_LINKER__DLL_Debug CMakeFiles/DLL.dir/doubleLinkedList/DLL.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DLL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DLL.exe
+  TARGET_IMPLIB = libDLL.dll.a
+  TARGET_PDB = DLL.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target compine_problem
+
+
+#############################################
+# Order-only phony target for compine_problem
+
+build cmake_object_order_depends_target_compine_problem: phony || CMakeFiles/compine_problem.dir
+
+build CMakeFiles/compine_problem.dir/singleLinkedList-problems/Combine_nodes.cpp.obj: CXX_COMPILER__compine_problem_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems/Combine_nodes.cpp || cmake_object_order_depends_target_compine_problem
+  DEP_FILE = CMakeFiles\compine_problem.dir\singleLinkedList-problems\Combine_nodes.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\compine_problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\compine_problem.dir\singleLinkedList-problems
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target compine_problem
+
+
+#############################################
+# Link the executable compine_problem.exe
+
+build compine_problem.exe: CXX_EXECUTABLE_LINKER__compine_problem_Debug CMakeFiles/compine_problem.dir/singleLinkedList-problems/Combine_nodes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\compine_problem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = compine_problem.exe
+  TARGET_IMPLIB = libcompine_problem.dll.a
+  TARGET_PDB = compine_problem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge
+
+
+#############################################
+# Order-only phony target for merge
+
+build cmake_object_order_depends_target_merge: phony || CMakeFiles/merge.dir
+
+build CMakeFiles/merge.dir/singleLinkedList-problems/merge_k_sorted_linkedlists.cpp.obj: CXX_COMPILER__merge_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems/merge_k_sorted_linkedlists.cpp || cmake_object_order_depends_target_merge
+  DEP_FILE = CMakeFiles\merge.dir\singleLinkedList-problems\merge_k_sorted_linkedlists.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/Stack-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/singleLinkedList-problems" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/doubleLinkedList"
+  OBJECT_DIR = CMakeFiles\merge.dir
+  OBJECT_FILE_DIR = CMakeFiles\merge.dir\singleLinkedList-problems
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge
+
+
+#############################################
+# Link the executable merge.exe
+
+build merge.exe: CXX_EXECUTABLE_LINKER__merge_Debug CMakeFiles/merge.dir/singleLinkedList-problems/merge_k_sorted_linkedlists.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\merge.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = merge.exe
+  TARGET_IMPLIB = libmerge.dll.a
+  TARGET_PDB = merge.exe.dbg
 
 
 #############################################
@@ -308,11 +580,27 @@ build ABL: phony ABL.exe
 
 build CCL: phony CCL.exe
 
+build DLL: phony DLL.exe
+
 build Generate_Binary_Numbers: phony Generate_Binary_Numbers.exe
 
 build Implement_a_stack: phony Implement_a_stack.exe
 
-build main: phony main.exe
+build Linked_list_Applications_test: phony Linked_list_Applications_test.exe
+
+build Linked_lists_test: phony Linked_lists_test.exe
+
+build SLL: phony SLL.exe
+
+build ST: phony ST.exe
+
+build compine_problem: phony compine_problem.exe
+
+build infinxproblem: phony infinxproblem.exe
+
+build merge: phony merge.exe
+
+build parantethisproblem: phony parantethisproblem.exe
 
 build queue: phony queue.exe
 
@@ -326,7 +614,7 @@ build sortingProblem: phony sortingProblem.exe
 #############################################
 # Folder: C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug
 
-build all: phony main.exe CCL.exe ABL.exe queue.exe sortingProblem.exe Implement_a_stack.exe Generate_Binary_Numbers.exe
+build all: phony Linked_lists_test.exe Linked_list_Applications_test.exe CCL.exe ABL.exe queue.exe sortingProblem.exe Implement_a_stack.exe Generate_Binary_Numbers.exe ST.exe infinxproblem.exe parantethisproblem.exe SLL.exe DLL.exe compine_problem.exe merge.exe
 
 # =============================================================================
 # Built-in targets

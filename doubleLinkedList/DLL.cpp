@@ -1,5 +1,5 @@
+#pragma once
 #include "DLL.h"
-using namespace std;
 
 template<class T>
 double_linked_list<T>::double_linked_list()
