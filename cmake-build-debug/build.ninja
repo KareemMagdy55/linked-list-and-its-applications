@@ -210,6 +210,40 @@ build sortingProblem.exe: CXX_EXECUTABLE_LINKER__sortingProblem_Debug CMakeFiles
   TARGET_IMPLIB = libsortingProblem.dll.a
   TARGET_PDB = sortingProblem.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Implement_a_stack
+
+
+#############################################
+# Order-only phony target for Implement_a_stack
+
+build cmake_object_order_depends_target_Implement_a_stack: phony || CMakeFiles/Implement_a_stack.dir
+
+build CMakeFiles/Implement_a_stack.dir/queue-problems/Implement_a_stack.cpp.obj: CXX_COMPILER__Implement_a_stack_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/queue-problems/Implement_a_stack.cpp || cmake_object_order_depends_target_Implement_a_stack
+  DEP_FILE = CMakeFiles\Implement_a_stack.dir\queue-problems\Implement_a_stack.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  OBJECT_DIR = CMakeFiles\Implement_a_stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\Implement_a_stack.dir\queue-problems
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Implement_a_stack
+
+
+#############################################
+# Link the executable Implement_a_stack.exe
+
+build Implement_a_stack.exe: CXX_EXECUTABLE_LINKER__Implement_a_stack_Debug CMakeFiles/Implement_a_stack.dir/queue-problems/Implement_a_stack.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Implement_a_stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Implement_a_stack.exe
+  TARGET_IMPLIB = libImplement_a_stack.dll.a
+  TARGET_PDB = Implement_a_stack.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -240,6 +274,8 @@ build ABL: phony ABL.exe
 
 build CCL: phony CCL.exe
 
+build Implement_a_stack: phony Implement_a_stack.exe
+
 build main: phony main.exe
 
 build queue: phony queue.exe
@@ -254,7 +290,7 @@ build sortingProblem: phony sortingProblem.exe
 #############################################
 # Folder: C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug
 
-build all: phony main.exe CCL.exe ABL.exe queue.exe sortingProblem.exe
+build all: phony main.exe CCL.exe ABL.exe queue.exe sortingProblem.exe Implement_a_stack.exe
 
 # =============================================================================
 # Built-in targets
