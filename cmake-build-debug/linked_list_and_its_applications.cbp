@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="linked_list_and_its_applications"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CCL">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/CCL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 CCL"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CCL/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/CCL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 CCL/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ABL">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/ABL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 ABL"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ABL/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/ABL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 ABL/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queue">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/queue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 queue"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queue/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/queue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 queue/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortingProblem">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/sortingProblem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 sortingProblem"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sortingProblem/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/sortingProblem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 sortingProblem/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Implement_a_stack">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Implement_a_stack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 Implement_a_stack"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Implement_a_stack/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Implement_a_stack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 Implement_a_stack/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Generate_Binary_Numbers">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Generate_Binary_Numbers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 Generate_Binary_Numbers"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Generate_Binary_Numbers/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Generate_Binary_Numbers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 Generate_Binary_Numbers/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ST">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/ST.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 ST"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ST/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/ST.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 ST/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="infinxproblem">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/infinxproblem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 infinxproblem"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="infinxproblem/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/infinxproblem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 infinxproblem/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parantethisproblem">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/parantethisproblem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 parantethisproblem"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parantethisproblem/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/parantethisproblem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 parantethisproblem/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SLL">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/SLL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 SLL"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SLL/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/SLL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 SLL/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DLL">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/DLL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 DLL"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DLL/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/DLL.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 DLL/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compine_problem">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/compine_problem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 compine_problem"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compine_problem/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/compine_problem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 compine_problem/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="merge">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/merge.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 merge"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="merge/fast">
+				<Option output="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/merge.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems"/>
+					<Add directory="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/Ahmed/AppData/Local/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 merge/fast"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Ahmed/AppData/Local/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Ahmed/Documents/linked-list-and-its-applications/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems/infinx_to_postifix.cpp">
+			<Option target="infinxproblem"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack-problems/longest_val_par.cpp">
+			<Option target="parantethisproblem"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/Stack/ST_source_code.cpp">
+			<Option target="ST"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/arrayBasedList/ABL_CPP.cpp">
+			<Option target="ABL"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/circularLinkedList/CCL_source_code.cpp">
+			<Option target="CCL"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList/DLL.cpp">
+			<Option target="DLL"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/doubleLinkedList/DLL.h">
+			<Option target="DLL"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems/Generate_Binary_Numbers.cpp">
+			<Option target="Generate_Binary_Numbers"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems/Implement_a_stack.cpp">
+			<Option target="Implement_a_stack"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue-problems/sorting-a-queue.cpp">
+			<Option target="sortingProblem"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue/queue.cpp">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/queue/queue.h">
+			<Option target="queue"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems/Combine_nodes.cpp">
+			<Option target="compine_problem"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList-problems/merge_k_sorted_linkedlists.cpp">
+			<Option target="merge"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/singleLinkedList/SLL_source_code_file.cpp">
+			<Option target="SLL"/>
+		</Unit>
+		<Unit filename="C:/Users/Ahmed/Documents/linked-list-and-its-applications/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
