@@ -35,4 +35,5 @@ void queue<T>::clear() {
 template<typename T>
 void queue<T>::print() {
     lst.print();
+    std::cout<<'\n';
 }

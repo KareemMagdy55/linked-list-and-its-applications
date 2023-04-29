@@ -4,5 +4,6 @@ C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/queue.dir
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/sortingProblem.dir
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/Implement_a_stack.dir
+C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/Generate_Binary_Numbers.dir
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug/CMakeFiles/rebuild_cache.dir

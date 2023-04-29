@@ -244,6 +244,40 @@ build Implement_a_stack.exe: CXX_EXECUTABLE_LINKER__Implement_a_stack_Debug CMak
   TARGET_IMPLIB = libImplement_a_stack.dll.a
   TARGET_PDB = Implement_a_stack.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Generate_Binary_Numbers
+
+
+#############################################
+# Order-only phony target for Generate_Binary_Numbers
+
+build cmake_object_order_depends_target_Generate_Binary_Numbers: phony || CMakeFiles/Generate_Binary_Numbers.dir
+
+build CMakeFiles/Generate_Binary_Numbers.dir/queue-problems/Generate_Binary_Numbers.cpp.obj: CXX_COMPILER__Generate_Binary_Numbers_Debug C$:/Kareem's/Programming$ vol.3/Github/C++/linked-list-and-its-applications/queue-problems/Generate_Binary_Numbers.cpp || cmake_object_order_depends_target_Generate_Binary_Numbers
+  DEP_FILE = CMakeFiles\Generate_Binary_Numbers.dir\queue-problems\Generate_Binary_Numbers.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/circularLinkedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/arrayBasedList" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue" -I"C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/queue-problems"
+  OBJECT_DIR = CMakeFiles\Generate_Binary_Numbers.dir
+  OBJECT_FILE_DIR = CMakeFiles\Generate_Binary_Numbers.dir\queue-problems
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Generate_Binary_Numbers
+
+
+#############################################
+# Link the executable Generate_Binary_Numbers.exe
+
+build Generate_Binary_Numbers.exe: CXX_EXECUTABLE_LINKER__Generate_Binary_Numbers_Debug CMakeFiles/Generate_Binary_Numbers.dir/queue-problems/Generate_Binary_Numbers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Generate_Binary_Numbers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Generate_Binary_Numbers.exe
+  TARGET_IMPLIB = libGenerate_Binary_Numbers.dll.a
+  TARGET_PDB = Generate_Binary_Numbers.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -274,6 +308,8 @@ build ABL: phony ABL.exe
 
 build CCL: phony CCL.exe
 
+build Generate_Binary_Numbers: phony Generate_Binary_Numbers.exe
+
 build Implement_a_stack: phony Implement_a_stack.exe
 
 build main: phony main.exe
@@ -290,7 +326,7 @@ build sortingProblem: phony sortingProblem.exe
 #############################################
 # Folder: C:/Kareem's/Programming vol.3/Github/C++/linked-list-and-its-applications/cmake-build-debug
 
-build all: phony main.exe CCL.exe ABL.exe queue.exe sortingProblem.exe Implement_a_stack.exe
+build all: phony main.exe CCL.exe ABL.exe queue.exe sortingProblem.exe Implement_a_stack.exe Generate_Binary_Numbers.exe
 
 # =============================================================================
 # Built-in targets
